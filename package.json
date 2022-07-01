@@ -7,6 +7,9 @@
     "dev": "set DEBUG=*,-not_this && tsc && node ./build/index.js",
     "build": "tsc"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
